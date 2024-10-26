@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "version": "0.0.1",
+    "name": "Sunshine Plugin",
+    "description": "Oveeriding a chrome page with a new blank one",
+    "chrome_url_overrides":{
+        "newtab": "index.html"
+    },
+    "content_security_policy": "script-src 'self' https://cdnjs.cloudflare.com; object-src 'self'"
+  }
